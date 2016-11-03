@@ -4,8 +4,7 @@
 A concise description of what the problem is.
 
 ### Versions
-iOS SDK version
-Spotify app version (if native SSO flow is involved)
+iOS Metadata version
 
 ### Severity
 Trivial, Minor, Major, Catastrophic

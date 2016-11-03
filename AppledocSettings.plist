@@ -17,7 +17,7 @@
 	<key>--project-company</key>
 	<string>Spotify AB</string>
 	<key>--project-name</key>
-	<string>Spotify iOS SDK</string>
+	<string>Spotify iOS Metadata</string>
 	<key>--repeat-first-par</key>
 	<false/>
 	<key>--verbose</key>
@@ -33,8 +33,8 @@
 	<key>--docset-install-path</key>
 	<string>./</string>
 	<key>--docset-bundle-name</key>
-	<string>Spotify iOS SDK</string>
+	<string>Spotify iOS Metadata</string>
 	<key>--docset-bundle-filename</key>
-	<string>Spotify iOS SDK.docset</string>
+	<string>Spotify iOS Metadata.docset</string>
 </dict>
 </plist>
