@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>--company-id</key>
+	<string>com.spotify</string>
+	<key>--ignore</key>
+	<array>
+		<string>.m</string>
+		<string>SPTAudioStreamingController_Threading.h</string>
+		<string>SPTReachability.h</string>
+	</array>
+	<key>--logformat</key>
+	<string>xcode</string>
+	<key>--print-settings</key>
+	<true/>
+	<key>--project-company</key>
+	<string>Spotify AB</string>
+	<key>--project-name</key>
+	<string>Spotify iOS Metadata</string>
+	<key>--repeat-first-par</key>
+	<false/>
+	<key>--verbose</key>
+	<string>3</string>
+	<key>--install-docset</key>
+	<false/>
+	<key>--exit-threshold</key>
+	<integer>2</integer>
+	<key>--docset-platform-family</key>
+	<string>spotify</string>
+	<key>--templates</key>
+	<string>./tools/appledoc/Templates</string>
+	<key>--docset-install-path</key>
+	<string>./</string>
+	<key>--docset-bundle-name</key>
+	<string>Spotify iOS Metadata</string>
+	<key>--docset-bundle-filename</key>
+	<string>Spotify iOS Metadata.docset</string>
+</dict>
+</plist>
