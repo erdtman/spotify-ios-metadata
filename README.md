@@ -67,4 +67,17 @@ with the new scopes.
 **Important:** Only ask for the scopes your application needs. Requesting playlist
 access when your app doesn't use playlists, for example, is bad form.
 
+Contributing
+=========================
+
+You are welcome to contribute to this project. Please make sure that:
+* New code is covered with tests
+* Features and APIs are well documented
+* Bitcode support remains enabled 
+
+## Code of conduct
+This project adheres to the [Open Code of Conduct][code-of-conduct]. By participating, you are expected to honor this code.
+
+[code-of-conduct]: https://github.com/spotify/code-of-conduct/blob/master/code-of-conduct.md
+
 
