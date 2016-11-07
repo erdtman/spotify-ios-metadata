@@ -16,7 +16,7 @@ file.
 Requirements
 =======
 
-The Spotify iOS SDK requires iOS a deployment target of iOS 7 or higher. The
+The Spotify iOS Metadata framework requires a deployment target of iOS 7 or higher. The
 following architectures are supported: `armv7`, `armv7s` and `arm64` for devices,
 and `i386` and `x86_64` for the iOS Simulator. The `i386` and `x86_64` slices
 *cannot* be used to build Mac applications.
