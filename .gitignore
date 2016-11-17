@@ -18,6 +18,10 @@ DerivedData
 .idea/
 .vscode/
 
+# Appledoc
+Spotify iOS *.docset/
+
+
 ## Obj-C/Swift specific
 *.hmap
 *.ipa

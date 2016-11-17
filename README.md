@@ -48,8 +48,9 @@ You can also generate Appledoc documentation for the framework in following way:
 
 `"./tools/appledoc/appledoc" -o . "./AppledocSettings.plist" "./Spotify Metadata/src"`
 
-3. AppleDoc documentation will appear in the location determined by values of the variables `--docset-install-path` and `--docset-bundle-filename`. By default, it will be the folder `Spotify iOS Metadata.docset` in the same folder in which you executed the previous command.
-4. Open the file `Spotify iOS Metadata.docset/Contents/Resources/Documents/index.html` in a browser to view the documentation.
+3. Move the documentation from the folder in which it was generated to the docs folder in the main folder. The former location is determined by values of the variables `--docset-install-path` and `--docset-bundle-filename`. By default, it will be the folder "Spotify iOS Metadata.docset" in the same folder in which you executed the previous command.
+
+`mv "./Spotify iOS Metadata.docset/Contents/Resources/Documents" "./docs"`
 
 *   Metadata classes contain methods for doing corresponding metadata lookup. `SPTUser` is for userinfo, `SPTSearch` for searching.
 
