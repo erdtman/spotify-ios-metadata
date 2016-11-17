@@ -7,8 +7,6 @@
 	<key>--ignore</key>
 	<array>
 		<string>.m</string>
-		<string>SPTAudioStreamingController_Threading.h</string>
-		<string>SPTReachability.h</string>
 	</array>
 	<key>--logformat</key>
 	<string>xcode</string>
