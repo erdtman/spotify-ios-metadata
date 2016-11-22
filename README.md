@@ -41,6 +41,17 @@ The library headers are extensively documented, and they come with an Xcode
 documentation set which can be indexed by Xcode itself and applications like
 Dash. 
 
+You can also generate Appledoc documentation for the framework in following way:
+
+1. Download AppleDoc tool and put it in the "tools" folder next to "AppledocSettings.plist" file. If you put AppleDoc folder in some other folder, update `--templates` field in the AppledocSettings.plist" file. You should use AppleDoc ver. 2.2 (build 963) in order to be able to generate the documentation using existing settings and documentation style.
+2. Run the following command from the main folder to generate documentation (update this command paths if you are running it from other folder or you have changed the location of the Appledoc tool, "AppledocSettings.plist" file or the Spotify Metadata framework)
+
+`"./tools/appledoc/appledoc" -o . "./AppledocSettings.plist" "./Spotify Metadata/src"`
+
+3. Move the documentation from the folder in which it was generated to the docs folder in the main folder. The former location is determined by values of the variables `--docset-install-path` and `--docset-bundle-filename`. By default, it will be the folder "Spotify iOS Metadata.docset" in the same folder in which you executed the previous command.
+
+`mv "./Spotify iOS Metadata.docset/Contents/Resources/Documents" "./docs"`
+
 *   Metadata classes contain methods for doing corresponding metadata lookup. `SPTUser` is for userinfo, `SPTSearch` for searching.
 
 Authenticating and Scopes
