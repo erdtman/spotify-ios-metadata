@@ -16,7 +16,7 @@
 
 #import "SPTPersonalize.h"
 #import "SPTRequest.h"
-#import "SPTListPage_Internal.h"
+#import "SPTListPage.h"
 
 @implementation SPTPersonalize
 
@@ -47,9 +47,10 @@
 									queryType:(SPTPersonalizeType)type
 										error:(NSError **)error {
 
-	return [[SPTListPage alloc] initWithDecodedJSONObject:decodedObject
-								 expectingPartialChildren:YES
-											rootObjectKey:[self typeNameFromPersonalizeType:type]];
+	return [SPTListPage listPageFromDecodedJSON:decodedObject
+					   expectingPartialChildren:NO
+								  rootObjectKey:nil
+										  error:error];
 }
 
 +(SPTListPage *)userTopResultsFromData:(NSData *)data
