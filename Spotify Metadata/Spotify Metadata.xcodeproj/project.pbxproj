@@ -100,6 +100,9 @@
 		37DEF3401843817E0097D1FD /* SPTTrack.h in Headers */ = {isa = PBXBuildFile; fileRef = 37DEF3291843817E0097D1FD /* SPTTrack.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		37DEF3411843817E0097D1FD /* SPTTrack.m in Sources */ = {isa = PBXBuildFile; fileRef = 37DEF32A1843817E0097D1FD /* SPTTrack.m */; };
 		99586DCD1CD18AF200437DFC /* libSpotifyMetadata.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 379BAC9417D8A2B5007F34AA /* libSpotifyMetadata.a */; };
+		B095ED231DEF5EDA00D04C61 /* SPTPersonalize.h in Headers */ = {isa = PBXBuildFile; fileRef = B095ED211DEF5EDA00D04C61 /* SPTPersonalize.h */; };
+		B095ED241DEF5EDA00D04C61 /* SPTPersonalize.m in Sources */ = {isa = PBXBuildFile; fileRef = B095ED221DEF5EDA00D04C61 /* SPTPersonalize.m */; };
+		B095ED261DEF6ECF00D04C61 /* SPTPersonalizeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B095ED251DEF6ECF00D04C61 /* SPTPersonalizeTests.m */; };
 		CE3206CF1B00918400E3C6AE /* SPTSearch.h in Headers */ = {isa = PBXBuildFile; fileRef = CE3206CD1B00918400E3C6AE /* SPTSearch.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CE3206D01B00918400E3C6AE /* SPTSearch.m in Sources */ = {isa = PBXBuildFile; fileRef = CE3206CE1B00918400E3C6AE /* SPTSearch.m */; };
 		CEAAAEDE1AFA54DB00FBBD3C /* SPTYourMusic.h in Headers */ = {isa = PBXBuildFile; fileRef = CEAAAEDC1AFA54DB00FBBD3C /* SPTYourMusic.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -179,6 +182,9 @@
 		37DEF32A1843817E0097D1FD /* SPTTrack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPTTrack.m; sourceTree = "<group>"; };
 		37DEF34218438E5C0097D1FD /* SPTRequest_Internal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SPTRequest_Internal.h; sourceTree = "<group>"; };
 		37DEF34318438ED70097D1FD /* SPTJSONDecoding_Internal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SPTJSONDecoding_Internal.h; sourceTree = "<group>"; };
+		B095ED211DEF5EDA00D04C61 /* SPTPersonalize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPTPersonalize.h; sourceTree = "<group>"; };
+		B095ED221DEF5EDA00D04C61 /* SPTPersonalize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPTPersonalize.m; sourceTree = "<group>"; };
+		B095ED251DEF6ECF00D04C61 /* SPTPersonalizeTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPTPersonalizeTests.m; sourceTree = "<group>"; };
 		CE3206CD1B00918400E3C6AE /* SPTSearch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPTSearch.h; sourceTree = "<group>"; };
 		CE3206CE1B00918400E3C6AE /* SPTSearch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPTSearch.m; sourceTree = "<group>"; };
 		CEAAAEDC1AFA54DB00FBBD3C /* SPTYourMusic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPTYourMusic.h; sourceTree = "<group>"; };
@@ -301,6 +307,8 @@
 				CE3206CE1B00918400E3C6AE /* SPTSearch.m */,
 				0744C1F61DA2A3FD00C051FF /* SPTTrackProvider.h */,
 				0744C1F91DA2A4AD00C051FF /* SPTMetadataTypes.h */,
+				B095ED211DEF5EDA00D04C61 /* SPTPersonalize.h */,
+				B095ED221DEF5EDA00D04C61 /* SPTPersonalize.m */,
 			);
 			name = "Spotify Metadata";
 			path = src;
@@ -318,6 +326,7 @@
 				07EFC8531DCB38D800FD499E /* SPTSearchTests.m */,
 				07EFC8551DCB38D800FD499E /* SPTTrackTests.m */,
 				07EFC8561DCB38D800FD499E /* SPTUserTests.m */,
+				B095ED251DEF6ECF00D04C61 /* SPTPersonalizeTests.m */,
 				07EFC8571DCB38D800FD499E /* SPTYourMusicTests.m */,
 				07EFC8581DCB38D800FD499E /* XCTestCase+AsyncTesting.h */,
 				07EFC8591DCB38D800FD499E /* XCTestCase+AsyncTesting.m */,
@@ -384,6 +393,7 @@
 				CEAAAEDE1AFA54DB00FBBD3C /* SPTYourMusic.h in Headers */,
 				CE3206CF1B00918400E3C6AE /* SPTSearch.h in Headers */,
 				37DEF3381843817E0097D1FD /* SPTPartialPlaylist.h in Headers */,
+				B095ED231DEF5EDA00D04C61 /* SPTPersonalize.h in Headers */,
 				37DEF32D1843817E0097D1FD /* SPTArtist.h in Headers */,
 				37DEF3371843817E0097D1FD /* SPTPartialObject.h in Headers */,
 				0744C1FA1DA2A4AD00C051FF /* SPTMetadataTypes.h in Headers */,
@@ -555,6 +565,7 @@
 				37DEF33B1843817E0097D1FD /* SPTPartialTrack.m in Sources */,
 				CEAAAEDF1AFA54DB00FBBD3C /* SPTYourMusic.m in Sources */,
 				37DEF3391843817E0097D1FD /* SPTPartialPlaylist.m in Sources */,
+				B095ED241DEF5EDA00D04C61 /* SPTPersonalize.m in Sources */,
 				37DEF33F1843817E0097D1FD /* SPTPlaylistSnapshot.m in Sources */,
 				CEB316C01AE0275F00F5502E /* SPTBrowse.m in Sources */,
 				CE3206D01B00918400E3C6AE /* SPTSearch.m in Sources */,
@@ -575,6 +586,7 @@
 			files = (
 				07EFC85E1DCB38D800FD499E /* SPTPlaylistTests.m in Sources */,
 				07EFC85B1DCB38D800FD499E /* SPTArtistTests.m in Sources */,
+				B095ED261DEF6ECF00D04C61 /* SPTPersonalizeTests.m in Sources */,
 				07EFC8631DCB38D800FD499E /* SPTUserTests.m in Sources */,
 				07EFC85C1DCB38D800FD499E /* SPTBrowseTests.m in Sources */,
 				07EFC85F1DCB38D800FD499E /* SPTRequestTests.m in Sources */,
